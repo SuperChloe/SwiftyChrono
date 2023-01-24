@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.9
 //
 //  Package.swift
 //  SwiftyChrono
@@ -17,5 +17,9 @@ let package = Package(
       targets: ["SwiftyChrono"]
     )
     ],
-    dependencies: []
+    targets: [
+        .target(
+          name: "SwiftyChrono"
+        )
+      ]
 )
