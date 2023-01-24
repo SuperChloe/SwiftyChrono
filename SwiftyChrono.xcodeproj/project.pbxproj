@@ -1148,6 +1148,20 @@
 			path = zh_hans;
 			sourceTree = "<group>";
 		};
+		89BBDAE129803C0F00945ACD /* SwiftyChrono */ = {
+			isa = PBXGroup;
+			children = (
+				C47EB2341E2E0408000F3D38 /* Parsers */,
+				C47EB2391E2E0408000F3D38 /* Refiners */,
+				C47EB23D1E2E0408000F3D38 /* Utils */,
+				C47EB23E1E2E0797000F3D38 /* Result.swift */,
+				BBB55AB71C8F80020050DDA9 /* Info.plist */,
+				C4169A011E2F6E19007B7423 /* Chrono.swift */,
+				C4169A091E2F6EB3007B7423 /* Options.swift */,
+			);
+			path = SwiftyChrono;
+			sourceTree = "<group>";
+		};
 		BBB55AA81C8F80020050DDA9 = {
 			isa = PBXGroup;
 			children = (
@@ -1181,13 +1195,7 @@
 		BBB55AB41C8F80020050DDA9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C47EB2341E2E0408000F3D38 /* Parsers */,
-				C47EB2391E2E0408000F3D38 /* Refiners */,
-				C47EB23D1E2E0408000F3D38 /* Utils */,
-				C47EB23E1E2E0797000F3D38 /* Result.swift */,
-				BBB55AB71C8F80020050DDA9 /* Info.plist */,
-				C4169A011E2F6E19007B7423 /* Chrono.swift */,
-				C4169A091E2F6EB3007B7423 /* Options.swift */,
+				89BBDAE129803C0F00945ACD /* SwiftyChrono */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -1683,6 +1691,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BBB55AA81C8F80020050DDA9;
